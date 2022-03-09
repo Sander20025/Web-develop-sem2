@@ -1,0 +1,13 @@
+section{
+    margin: 0;
+    float: left;
+
+}
+.vierkant{
+    height: 120px;
+    width: 120px;
+    background-color: darkblue;
+    margin-left:150px ;
+    float: left;
+    border: 2px black solid;
+}
