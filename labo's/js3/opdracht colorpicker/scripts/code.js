@@ -23,6 +23,14 @@ const update = () =>{
     cijferGreen[0].innerHTML = valueGreen;
     cijferBlue[0].innerHTML = valueBLue;
 
+
+    let rood = document.getElementById("kleur rood").value
+    let groen = document.getElementById("kleur groen").value
+    let blauw = document.getElementById("kleur blauw").value
+    let vierkant = document.getElementsByClassName("vierkant")
+
+    vierkant[0].style.backgroundColor = "rgb("+ rood + "," + groen +","+ blauw + ")"
+
 }
 window.addEventListener("load", setup);
 window.addEventListener("load", update);
