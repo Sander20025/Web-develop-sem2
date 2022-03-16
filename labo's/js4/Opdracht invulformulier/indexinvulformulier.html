@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title> invulformulier</title>
+</head>
+<body>
+    <form action ="" method ="post">
+        <label for="firstname"> First name*:  </label>
+        <input type="text" name="firstman" id="firstname">
+    <br/>
+        <label for="lastname"> Last name*:  </label>
+        <input type="text" name="lastname" id="lastname">
+    <br/>
+        <p>Which sport do you train?</p>
+        <label for="Running"> Running </label>
+        <input type="checkbox" id="Running" name ="Sports" value="Running">
+        <br/>
+        <label for="Swimming"> Swimming </label>
+        <input type="checkbox" id="Swimming" name ="Sports" value="Swimming">
+        <br/>
+        <label for="Rowing"> Rowing </label>
+        <input type="checkbox" id="Rowing" name ="Sports" value="Rowing">
+    <br/>
+        <p> What is your gender</p>
+        <input type="radio" id="Male" name="Gender" value="M">
+        <label for="Male"> Male</label>
+        <br/>
+        <input type="radio" id="Female" name="Gender" value="V">
+        <label for="Female"> Female</label>
+        <br/>
+        <label for="movie"> Favorite movie: </label>
+        <input type="text" name ="movie"  id ="movie">
+        <br/>
+        <label for="quote"> Favorite quote: </label>
+        <input type="text" name ="quote"  id ="quote"
+               required placeholder="Write your favorite quote">
+        <br/>
+        <label for="passwoord"> Paswoord*: </label>
+        <input type="password" name ="passwoord"  id ="passwoord">
+        <br/>
+        <label for="food"> Favorite food</label>
+        <select name="food" id="food" >
+            <option value="kapsalon"> kapsalon </option>
+            <option value="Frieten"> frieten </option>
+            <option value="Hamburger"> hamburger </option>
+            <option value="Pizza"> Pizza </option>
+        </select>
+        <br/>
+        <input type="file">
+        <br/>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"
+               placeholder="Enter your email adress" />
+        <br/>
+        <label for="website">Website:</label>
+        <input type="url" name="website" id="website"
+               placeholder="http://www.example.com" />
+        <br/>
+        <label for="number">Number:</label>
+        <input type="number" name=”number” min=”0” max=”10” id="number">
+        <br/>
+        <label for="numberslider">Favorite number between 11- 1000:</label>
+        <input type="range" name="numberslider" id="numberslider" min="11" max="1000">
+        <br/>
+        <label for="borndate"> When were you born? </label>
+        <input type="date" name="borndate" id="borndate">
+        <br/>
+        <label for="zip-code"> Belgium zip-code reg number*: </label>
+        <input type="number" name="zip-code" id="zip-code" pattern="[0-9]{4}">
+        <br/>
+        <label for="search"> Search for something: </label>
+        <input type="search" name="search" id="search">
+        <br/>
+        <label for="color"> What is your favorite color? </label>
+        <input type="color" id="color" name="color">
+        <br/>
+        <label for="submit"> submit </label>
+        <input type="submit" id="submit" name="submit">
+    </form>
+
+
+
+
+<script type="text/javascript" charset="utf-8"
+        src="scripts/code.js"></script>
+</body>
+</html>
