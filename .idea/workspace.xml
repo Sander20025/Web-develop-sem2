@@ -40,12 +40,16 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.script.js (1)">
+    <configuration name="script.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/testje/Testje/scripts/script.js" working-dir="$PROJECT_DIR$/testje/Testje/scripts">
+      <method v="2" />
+    </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/labo's/js2/Arrays/scripts/script.js" working-dir="$PROJECT_DIR$/labo's/js2/Arrays/scripts">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.script.js (1)" />
         <item itemvalue="Node.js.script.js" />
       </list>
     </recent_temporary>
@@ -67,6 +71,8 @@
       <workItem from="1647335180114" duration="694000" />
       <workItem from="1647418926011" duration="8895000" />
       <workItem from="1647773045251" duration="782000" />
+      <workItem from="1648022603351" duration="1490000" />
+      <workItem from="1648024176281" duration="6078000" />
     </task>
     <servers />
   </component>

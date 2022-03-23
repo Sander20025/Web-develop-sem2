@@ -1,3 +1,4 @@
+
 const setup = () => {
 let tekst = document.getElementById("manVanAn").textContent.toLowerCase();
 
