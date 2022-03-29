@@ -3,12 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css">
-
-    <title>Title</title>
+    <title>Opdracht formwaarden</title>
 </head>
 <body>
-
+<form>
+    <label for="isRoker">Is roker</label>
+    <input type="checkbox" id="isRoker" name="Is een roker">
+    <br>
+    Moedertaal
+    <input type="radio" id="nl" name="moedertaal" value="nl">
+    <label for="nl">Nederlands</label>
+    <input type="radio" id="fr" name="moedertaal" value="fr">
+    <label for="fr">Frans</label>
+    <input type="radio" id="en" name="moedertaal" value="en">
+    <label for="en">Engels</label>
+    <br>
+    <label for="buurland">Favoriete buurland</label>
+    <select id="buurland" name="landen">
+        <option value="Frankrijk">Engeland</option>
+        <option value="Nederlands">Nederlands</option>
+        <option value="Duitsland">Duitsland</option>
+        <option value="Luxemburg">Luxemburg</option>
+        <option value="Luxemburg">Frankrijk</option>
+    </select>
+    <br>
+    <label for="besteling">Besteling</label>
+    <select id="besteling" name="bestelling" multiple>
+        <option value="aardappelen">Kapsalon</option>
+        <option value="brood">Pitta</option>
+        <option value="melk">Frieten</option>
+        <option value="biefstuk">Pizza</option>
+        <option value="chips">chips</option>
+        <option value="krant">Worst</option>
+    </select>
+    <br>
+</form>
+<button id="button">resultaat</button>
 <script type="text/javascript" charset="utf-8"
         src="scripts/code.js"></script>
 </body>
+
 </html>
