@@ -8,7 +8,7 @@ let global = {
     timeoutId: 0 // id van de timeout timer, zodat we die kunnen annuleren
 };
 const setup = () => {
-    let knop = document.getElementById("playField")
+    let knop = document.getElementById("knop")
 };
 
 
